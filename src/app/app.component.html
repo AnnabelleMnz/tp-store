@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-icon svgIcon="medicine-bottle"></mat-icon>
+  <a mat-button routerLink="/home">
+    <h1>Super Store</h1>
+  </a>
+    <span class="flex-spacer"></span>
+    <button mat-mini-fab routerLink="/user/profile" matTooltip="Profile" aria-label="UserProfile">U
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <button mat-mini-fab routerLink="/user/logout" matTooltip="Logout" aria-label="Logout">
+      <mat-icon>lock_open</mat-icon>
+    </button>
+</mat-toolbar>
+<router-outlet></router-outlet>
